@@ -89,7 +89,7 @@ void EmptyLinkFunctionForGeneratedCodeNaveAcuatica_Espia() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANaveAcuatica_Espia, 298129549);
+	IMPLEMENT_CLASS(ANaveAcuatica_Espia, 2652084736);
 	template<> GALAGAUSFX_LAB06_API UClass* StaticClass<ANaveAcuatica_Espia>()
 	{
 		return ANaveAcuatica_Espia::StaticClass();

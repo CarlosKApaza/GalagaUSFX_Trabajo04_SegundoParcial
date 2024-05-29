@@ -89,7 +89,7 @@ void EmptyLinkFunctionForGeneratedCodeNaveTerrestre_Transporte() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANaveTerrestre_Transporte, 2454749150);
+	IMPLEMENT_CLASS(ANaveTerrestre_Transporte, 658073589);
 	template<> GALAGAUSFX_LAB06_API UClass* StaticClass<ANaveTerrestre_Transporte>()
 	{
 		return ANaveTerrestre_Transporte::StaticClass();

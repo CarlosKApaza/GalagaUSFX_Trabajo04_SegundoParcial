@@ -5,10 +5,12 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 
+#include "Suscriptora.h"
+
 #include "NaveEnemiga.generated.h"
 
 UCLASS()
-class GALAGAUSFX_LAB06_API ANaveEnemiga : public AActor
+class GALAGAUSFX_LAB06_API ANaveEnemiga : public AActor, public ISuscriptora
 {
 	GENERATED_BODY()
 	
@@ -26,7 +28,8 @@ protected:
 	float energia; // La energia que tendran todas las naves
 	float resistencia;   // La resistencia que tendran todas las naves
 
-
+	
+	
 	FString nombre;
 	FVector posicion;
 	FVector EscalaNaveEnemiga;
@@ -88,9 +91,32 @@ public:
 	//void RecibirDanio(float dano) PURE_VIRTUAL(ANaveEnemiga::RecibirDanio, );  // 
 	void Mover(float DeltaTime) PURE_VIRTUAL(ANaveEnemiga::Mover, );
 	
+	// Curarse
+	
+
 	// Devolver el nombre de la nave
 	FString GetNombreNave();
-
-
 	TMap<ANaveEnemiga*, int> TMRecompensasDeNaves; //Mapa de Recompensas de Naves
+
+
+//----------------------------OBSERVER-----------------------------------------//
+public:
+
+	bool bEscapar;
+	bool bRetornar;
+
+	// radar
+	UPROPERTY(VisibleAnywhere, Category = "Subscriptor")
+	class ARadar* Radar;
+
+	// Metodo de la interfaz
+	virtual void Actualizar(APublicador* _Publicador) override;
+
+	void EstablacerRadar(class ARadar* _Radar);
+	void Escapar();
+	void Desuscribirse();
+	void EscaparNave(float DeltaTime);
+
+	//funcon Curarse para que las naves enemigas se curen
+	virtual void Curarse() PURE_VIRTUAL(ANaveEnemiga::Curarse, );
 };

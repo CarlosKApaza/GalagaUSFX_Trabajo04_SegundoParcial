@@ -89,7 +89,7 @@ void EmptyLinkFunctionForGeneratedCodeNaveTerrestre_Artilleria() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANaveTerrestre_Artilleria, 2564539247);
+	IMPLEMENT_CLASS(ANaveTerrestre_Artilleria, 3362804027);
 	template<> GALAGAUSFX_LAB06_API UClass* StaticClass<ANaveTerrestre_Artilleria>()
 	{
 		return ANaveTerrestre_Artilleria::StaticClass();

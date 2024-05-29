@@ -89,7 +89,7 @@ void EmptyLinkFunctionForGeneratedCodeNaveAerea_Caza() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANaveAerea_Caza, 3761343740);
+	IMPLEMENT_CLASS(ANaveAerea_Caza, 3752593454);
 	template<> GALAGAUSFX_LAB06_API UClass* StaticClass<ANaveAerea_Caza>()
 	{
 		return ANaveAerea_Caza::StaticClass();

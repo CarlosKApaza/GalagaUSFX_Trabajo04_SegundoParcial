@@ -6,6 +6,10 @@
 #include "UObject/ConstructorHelpers.h"
 #include "Engine/StaticMesh.h"
 
+
+#include "Radar.h"
+#include "GalagaUSFX_LAB06GameMode.h"
+
 // Sets default values
 ANaveEnemiga::ANaveEnemiga()
 {
@@ -17,6 +21,9 @@ ANaveEnemiga::ANaveEnemiga()
 	RootComponent = mallaNaveEnemiga;
 
 	NombreNave = "Nave Carlitos";
+
+	bEscapar = false;
+	bRetornar = false;
 }
 
 // Called when the game starts or when spawned
@@ -42,6 +49,53 @@ FString ANaveEnemiga::GetNombreNave()
 {
 	//Retorna el nombre de la pocion
 	return NombreNave;
+}
+
+void ANaveEnemiga::EstablacerRadar(ARadar* _Radar)
+{
+	if (!_Radar)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("No se ha encontrado el radar"));
+		return;
+	}
+	Radar = _Radar;
+	Radar->Suscribirse(this);
+}
+
+void ANaveEnemiga::Actualizar(APublicador* _Publicador)
+{
+	Escapar();
+}
+
+void ANaveEnemiga::Escapar()
+{
+	float DañoRecibido = Radar->GetVidaPromedio();
+	if (DañoRecibido <= 10)
+	{
+		bEscapar = true;
+	}
+}
+
+void ANaveEnemiga::Desuscribirse()
+{
+	if (Radar)
+	{
+		Radar->Desuscribirse(this);
+	}
+}
+
+void ANaveEnemiga::EscaparNave(float DeltaTime)
+{
+	if (bEscapar == true)
+	{
+		SetActorLocation(FMath::VInterpTo(GetActorLocation(), FVector(1700.0f, -147.0f, 215.0f), DeltaTime, 0.5));
+		Curarse();
+	}
+	if (GetActorLocation().Equals(FVector(1700.0f, -147.0f, 215.0f), 200))
+	{
+		bEscapar = false;
+		bRetornar = true;
+	}
 }
 
 

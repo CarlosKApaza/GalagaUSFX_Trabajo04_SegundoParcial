@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeNaveEnemigaBombardero() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANaveEnemigaBombardero, 3490982183);
+	IMPLEMENT_CLASS(ANaveEnemigaBombardero, 2606875515);
 	template<> GALAGAUSFX_LAB06_API UClass* StaticClass<ANaveEnemigaBombardero>()
 	{
 		return ANaveEnemigaBombardero::StaticClass();

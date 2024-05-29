@@ -68,7 +68,6 @@ D:\Mi Repositorio Final\GalagaUSFX_Trabajo04_SegundoParcial\GalagaUSFX_Trabajo02
 D:/Mi Repositorio Final/GalagaUSFX_Trabajo04_SegundoParcial/GalagaUSFX_Trabajo02_SegundoParcial-master/Intermediate/Build/Win64/UE4Editor/Inc/GalagaUSFX_LAB06/Facade.gen.cpp
 D:\Mi Repositorio Final\GalagaUSFX_Trabajo04_SegundoParcial\GalagaUSFX_Trabajo02_SegundoParcial-master\Source\GalagaUSFX_LAB06/Facade.h
 D:\Mi Repositorio Final\GalagaUSFX_Trabajo04_SegundoParcial\GalagaUSFX_Trabajo02_SegundoParcial-master\Intermediate\Build\Win64\UE4Editor\Inc\GalagaUSFX_LAB06\Facade.generated.h
-D:/Mi Repositorio Final/GalagaUSFX_Trabajo04_SegundoParcial/GalagaUSFX_Trabajo02_SegundoParcial-master/Intermediate/Build/Win64/UE4Editor/Inc/GalagaUSFX_LAB06/GalagaUSFX_LAB06.init.gen.cpp
 D:/Mi Repositorio Final/GalagaUSFX_Trabajo04_SegundoParcial/GalagaUSFX_Trabajo02_SegundoParcial-master/Intermediate/Build/Win64/UE4Editor/Inc/GalagaUSFX_LAB06/GalagaUSFX_LAB06GameMode.gen.cpp
 D:/Mi Repositorio Final/GalagaUSFX_Trabajo04_SegundoParcial/GalagaUSFX_Trabajo02_SegundoParcial-master/Intermediate/Build/Win64/UE4Editor/Inc/GalagaUSFX_LAB06/GalagaUSFX_LAB06Pawn.gen.cpp
 D:\Mi Repositorio Final\GalagaUSFX_Trabajo04_SegundoParcial\GalagaUSFX_Trabajo02_SegundoParcial-master\Source\GalagaUSFX_LAB06/GalagaUSFX_LAB06Pawn.h
@@ -121,3 +120,6 @@ D:\Mi Repositorio Final\GalagaUSFX_Trabajo04_SegundoParcial\GalagaUSFX_Trabajo02
 D:\Mi Repositorio Final\GalagaUSFX_Trabajo04_SegundoParcial\GalagaUSFX_Trabajo02_SegundoParcial-master\Intermediate\Build\Win64\UE4Editor\Inc\GalagaUSFX_LAB06\NaveTerrestre_Transporte.generated.h
 D:/Mi Repositorio Final/GalagaUSFX_Trabajo04_SegundoParcial/GalagaUSFX_Trabajo02_SegundoParcial-master/Intermediate/Build/Win64/UE4Editor/Inc/GalagaUSFX_LAB06/PlanoPortaNavesAereas.gen.cpp
 D:/Mi Repositorio Final/GalagaUSFX_Trabajo04_SegundoParcial/GalagaUSFX_Trabajo02_SegundoParcial-master/Intermediate/Build/Win64/UE4Editor/Inc/GalagaUSFX_LAB06/PortaNavesAereas.gen.cpp
+D:/Mi Repositorio Final/GalagaUSFX_Trabajo04_SegundoParcial/GalagaUSFX_Trabajo02_SegundoParcial-master/Intermediate/Build/Win64/UE4Editor/Inc/GalagaUSFX_LAB06/Suscriptora.gen.cpp
+D:\Mi Repositorio Final\GalagaUSFX_Trabajo04_SegundoParcial\GalagaUSFX_Trabajo02_SegundoParcial-master\Source\GalagaUSFX_LAB06/Suscriptora.h
+D:\Mi Repositorio Final\GalagaUSFX_Trabajo04_SegundoParcial\GalagaUSFX_Trabajo02_SegundoParcial-master\Intermediate\Build\Win64\UE4Editor\Inc\GalagaUSFX_LAB06\Suscriptora.generated.h

@@ -89,7 +89,7 @@ void EmptyLinkFunctionForGeneratedCodeNaveAerea_Transporte() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANaveAerea_Transporte, 861272518);
+	IMPLEMENT_CLASS(ANaveAerea_Transporte, 3266028918);
 	template<> GALAGAUSFX_LAB06_API UClass* StaticClass<ANaveAerea_Transporte>()
 	{
 		return ANaveAerea_Transporte::StaticClass();

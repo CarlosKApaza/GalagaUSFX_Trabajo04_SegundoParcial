@@ -89,7 +89,7 @@ void EmptyLinkFunctionForGeneratedCodeNaveAcuatica_Exploracion() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANaveAcuatica_Exploracion, 1538938362);
+	IMPLEMENT_CLASS(ANaveAcuatica_Exploracion, 2147089506);
 	template<> GALAGAUSFX_LAB06_API UClass* StaticClass<ANaveAcuatica_Exploracion>()
 	{
 		return ANaveAcuatica_Exploracion::StaticClass();
